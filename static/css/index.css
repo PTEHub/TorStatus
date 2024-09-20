@@ -1,0 +1,47 @@
+body{
+    line-height: 1.15;
+    font-size: 0.5rem;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: 0 0 / cover;
+    background-color: #101129;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* map  */
+.map {
+  width: 100%;
+  height: 100vh;
+/*   margin-bottom: 0.833rem;*/
+  display: flex;
+  flex-direction: column;
+}
+.map h3 {
+  line-height: 1;
+  padding: 0.667rem 0;
+  margin: 0;
+  font-size: 0.833rem;
+  color: #fff;
+}
+.map .icon-cube {
+  color: #68d8fe;
+}
+.map .chart {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.map .geo {
+  width: 100%;
+  height: 100%;
+}
