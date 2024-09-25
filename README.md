@@ -28,7 +28,10 @@ TorStatus is a visualization application for monitoring the status of the Tor ne
    ```
    pip install flask flask-socketio stem geoip2 eventlet
    ```
-
+4. Use apt to install
+   ```
+   sudo apt install python3-flask python3-flask-socketio python3-eventlet python3-geoip2 python3-stem
+   ```
 ## Usage
 
 1. Before running the application, you need to modify the following configuration in the code:
