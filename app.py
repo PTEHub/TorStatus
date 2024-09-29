@@ -205,7 +205,7 @@ class TorNetworkAnalyzer:
             "longitude": 126.8751,
             "country": "kr",
             "type": "Local"
-        }
+        },
 
     def status_listener(self):
         self.controller.add_event_listener(
